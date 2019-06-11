@@ -4,11 +4,16 @@
   "description": "Solidity Contract1 Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Dipesh Sukhani",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.5.9"
+    "ganache-cli": "^6.4.3",
+    "mocha": "^6.1.4",
+    "node-gyp": "^4.0.0",
+    "rebuild": "^0.1.2",
+    "solc": "^0.5.9",
+    "web3": "^1.0.0-beta.26"
   }
 }
