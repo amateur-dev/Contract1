@@ -1,0 +1,1 @@
+npm install ganache-cli@beta -g

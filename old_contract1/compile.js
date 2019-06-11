@@ -23,7 +23,7 @@ let jsonContractSource = JSON.stringify({
 });
 
 var json = JSON.parse(solc.compile(jsonContractSource));
-// console.log(json.contracts["Task"]["Inbox"])
+console.log(json.contracts["Task"]["Inbox"])
 // console.log(solc.compile(jsonContractSource)['contracts'])
 module.exports = json.contracts["Task"]["Inbox"];
 
